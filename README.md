@@ -1,6 +1,6 @@
 # Sidebar Project
 
-[🔗 Clique para ir ao Figma](https://www.figma.com/file/mq5klvRrjSZSs7eFqfn9sU/Sidebar-Responsiva?node-id=72%3A2)
+[💻 Clique para ir ao Figma](https://www.figma.com/file/mq5klvRrjSZSs7eFqfn9sU/Sidebar-Responsiva?node-id=72%3A2)
 
 ![preview](./github/sidebar-preview.png)
 

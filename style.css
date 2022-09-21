@@ -30,7 +30,7 @@ body {
 }
 
 .sidebar .logo_content .logo {
-  color: #084236;
+  color: #02362b;
   display: flex;
   height: 48px;
   width: 100%;
@@ -56,7 +56,7 @@ body {
 
 .sidebar #btn {
   position: absolute;
-  color: #084236;
+  color: #02362b;
   left: 50%;
   top: 8px;
   font-size: 24px;
@@ -92,7 +92,7 @@ body {
   height: 36px;
   width: 128px;
   color: #18c29c;
-  background: #084236;
+  background: #02362b;
   line-height: 36px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -128,24 +128,24 @@ body {
 }
 
 .sidebar ul li input::placeholder {
-  color: #084236;
+  color: #02362b;
   opacity: 56%;
 }
 
 .sidebar ul li .bx-search-alt-2 {
   position: absolute;
   z-index: 99;
-  color: #084236;
+  color: #02362b;
   font-size: 24px;
 }
 
 .sidebar ul li .bx-search-alt-2:hover {
-  background: #084236;
+  background: #02362b;
   color: #18c29c;
 }
 
 .sidebar ul li a {
-  color: #084236;
+  color: #02362b;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -156,7 +156,7 @@ body {
 
 .sidebar ul li a:hover {
   color: #18c29c;
-  background: #084236;
+  background: #02362b;
 }
 
 .sidebar ul li i {
@@ -262,7 +262,7 @@ body {
 .home_content .text {
   font-size: 24px;
   font-weight: 400;
-  color: #084236;
+  color: #02362b;
   margin: 20px;
 }
 
@@ -271,8 +271,16 @@ body {
   left: 240px;
 }
 
-.bulding_site {
+.sidebar.active ~ .illustration .bulding_site {
   width: 400px;
   height: 100%;
-  margin: 16vh 40vw;
+  margin: 20vh 44vw;
+  transition: all 0.4s ease;
+}
+
+.sidebar ~ .illustration .bulding_site {
+  width: 400px;
+  height: 100%;
+  margin: 20vh calc(48vw - 240px + 80px);
+  transition: all 0.4s ease;
 }
